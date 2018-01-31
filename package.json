@@ -1,0 +1,19 @@
+{
+  "name": "menubuzz",
+  "version": "1.0.0",
+  "description": "menubuzz smart contracts",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chris barber",
+  "license": "ISC",
+  "dependencies": {
+    "truffle-contract": "^3.0.2",
+    "web3": "^1.0.0-beta.29",
+    "zeppelin-solidity": "^1.6.0"
+  }
+}
