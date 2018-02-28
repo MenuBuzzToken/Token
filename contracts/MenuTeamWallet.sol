@@ -1,8 +1,8 @@
-pragma solidity 0.4.18;
+pragma solidity 0.4.19;
 
 import './MenuToken.sol';
-import 'zeppelin-solidity/contracts/ownership/Ownable.sol';
-import 'zeppelin-solidity/contracts/math/SafeMath.sol';
+import './Ownable.sol';
+import './SafeMath.sol';
 
 contract MenuTeamWallet is Ownable{
   using SafeMath for uint256;

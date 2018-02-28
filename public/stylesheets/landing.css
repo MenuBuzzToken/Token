@@ -1,0 +1,21 @@
+body { 
+	
+}
+
+h1,h2,h3{
+	text-align: center;
+	margin: 0;
+}
+
+#landing-header {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+
+div.container-fluid {
+	margin: 100, 100;
+}
+

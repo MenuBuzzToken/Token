@@ -1,13 +1,13 @@
-pragma solidity 0.4.18;
+pragma solidity 0.4.19;
 
-import 'zeppelin-solidity/contracts/token/ERC20/StandardToken.sol';
-import 'zeppelin-solidity/contracts/ownership/Ownable.sol';
+import './StandardToken.sol';
+import './Ownable.sol';
 
 contract MenuToken is StandardToken, Ownable {
     
     string public constant symbol = "MENU";
     string public constant name = "MenuBuzz";
-    uint8 public constant decimals = 10;
+    uint256 public constant decimals = 10;
 
   function MenuToken()
     public

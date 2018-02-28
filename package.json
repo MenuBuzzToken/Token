@@ -1,19 +1,22 @@
 {
-  "name": "menubuzz",
+  "name": "final_project",
   "version": "1.0.0",
-  "description": "menubuzz smart contracts",
-  "main": "truffle-config.js",
+  "description": "Node_and_Truffle",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "chris barber",
+  "author": "Chris Barber",
   "license": "ISC",
   "dependencies": {
-    "truffle-contract": "^3.0.2",
-    "web3": "^1.0.0-beta.29",
-    "zeppelin-solidity": "^1.6.0"
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "truffle-contract": "^3.0.3",
+    "web3": "^1.0.0-beta.29"
   }
 }

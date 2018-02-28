@@ -1,9 +1,9 @@
-pragma solidity 0.4.18;
+pragma solidity 0.4.19;
 
 import './MenuToken.sol';
 import './MenuTeamWallet.sol';
-import 'zeppelin-solidity/contracts/ownership/Ownable.sol';
-import 'zeppelin-solidity/contracts/math/SafeMath.sol';
+import './Ownable.sol';
+import './SafeMath.sol';
 
 contract MenuCrowdSale is Ownable{
   using SafeMath for uint256;
