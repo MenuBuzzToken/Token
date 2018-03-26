@@ -12,7 +12,7 @@ contract MenuToken is StandardToken, Ownable {
   function MenuToken()
     public
     {
-        totalSupply_ = 700000000 * 10**10;
+        totalSupply_ = 800000000 * 10**10;
         balances[msg.sender] = totalSupply_;
         assert(balances[owner] == totalSupply_);                
     }
